@@ -1,5 +1,5 @@
 #! /bin/bash
-# Copyright (c) 2018 Suniceman
+# Copyright (c) 2018 flyzy小站
 
 red='\033[0;31m'
 green='\033[0;32m'
@@ -79,7 +79,7 @@ main() {
         then
                 firewall_set
         fi
-	bash <(curl -L -s https://install.direct/go.sh)
+	bash <(curl -L -s https://install.direct/go.sh)	
 }
 
 if [ "$EUID" -ne 0 ]; then
